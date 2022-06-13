@@ -23,7 +23,7 @@ def binary_search(input_array, value):
 	    	middle_element = input_array[(size_of_list/2)-1]
 	    
 	    if value == middle_element:
-	    	return final_array.index(middle_element)
+	    	return final_array.index(middle_element)+1
 	    elif value < middle_element:
 	    	input_array = input_array[:(input_array.index(middle_element))]
 	    elif value > middle_element:
